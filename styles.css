@@ -13,9 +13,12 @@ body{
 }
 
 header{
-    width: 800px;
-    background-color: white;
+    max-width: 400px;
+    min-width: 300px;
+    background-color: #a5a461;
     margin: 10px auto;
+    border: 2px solid blue;
+    border-radius: 5px;
 }
 
 h1{
@@ -26,11 +29,21 @@ h1{
 h2{
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
+    margin: 10px 0px;
+}
+
+h3{
+    font-family: 'Ubuntu', sans-serif;
+    text-indent: 20px;
+    margin: 10px 0px;
 }
 
 p{
     text-indent: 30px;
     font-family: 'Ubuntu', sans-serif;
+    margin: 0px auto;
+    min-width: 300px;
+    max-width: 750px;
 }
 
 li{
@@ -38,14 +51,30 @@ li{
 }
 
 main{
-    width: 800px;
-    background-color: white;
+    max-width: 800px;
+    min-width: 300px;
+    background-color: #a5a461;
     margin: 10px auto;
+    padding: 10px 0px;
+    border: 2px solid blue;
+    border-radius: 5px;
 }
 
 footer{
-    width: 800px;
-    background-color: white;
+    width: 300px;
+    background-color: #a5a461;
     margin: 10px auto;
     text-align: center;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+footer a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover{
+    text-decoration: underline;
 }
